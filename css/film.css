@@ -1,0 +1,109 @@
+/* ── FILM PAGE ── */
+.page-header {
+  text-align: center;
+  padding: 4rem 2rem 2rem;
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  animation: fadeUp 1s ease forwards;
+  opacity: 0;
+}
+
+.back-link {
+  font-family: 'Caveat', cursive;
+  font-size: 1.1rem;
+  color: #b4b2a9;
+  text-decoration: none;
+  position: absolute;
+  left: 2rem;
+  top: 4rem;
+  transition: color 0.3s;
+}
+
+.back-link:hover {
+  color: #1a1a18;
+}
+
+.page-title {
+  font-family: 'Caveat', cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a1a18;
+  letter-spacing: 0.04em;
+}
+
+.page-sub {
+  font-family: 'Caveat', cursive;
+  font-size: 1.1rem;
+  color: #b4b2a9;
+  margin-top: 0.3rem;
+}
+
+/* ── FILM LIST ── */
+.film-list {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 2rem 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.film-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  animation: fadeUp 1s ease forwards;
+  opacity: 0;
+}
+
+.film-item:nth-child(1) { animation-delay: 0.3s; }
+.film-item:nth-child(2) { animation-delay: 0.5s; }
+.film-item:nth-child(3) { animation-delay: 0.7s; }
+.film-item:nth-child(4) { animation-delay: 0.9s; }
+
+/* ── YOUTUBE EMBED ── */
+.film-embed {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.film-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* ── FILM INFO ── */
+.film-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  text-align: center;
+  max-width: 600px;
+}
+
+.film-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #1a1a18;
+  letter-spacing: 0.04em;
+}
+
+.film-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: #888780;
+  line-height: 1.8;
+  font-weight: 300;
+}
