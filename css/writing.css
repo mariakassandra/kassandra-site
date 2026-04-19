@@ -1,0 +1,179 @@
+/* ── WRITING PAGE ── */
+.page-header {
+  text-align: center;
+  padding: 4rem 2rem 2rem;
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  animation: fadeUp 1s ease forwards;
+  opacity: 0;
+}
+
+.back-link {
+  font-family: 'Caveat', cursive;
+  font-size: 1.1rem;
+  color: #b4b2a9;
+  text-decoration: none;
+  position: absolute;
+  left: 2rem;
+  top: 4rem;
+  transition: color 0.3s;
+}
+
+.back-link:hover {
+  color: #1a1a18;
+}
+
+.page-title {
+  font-family: 'Caveat', cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a1a18;
+  letter-spacing: 0.04em;
+}
+
+.page-sub {
+  font-family: 'Caveat', cursive;
+  font-size: 1.1rem;
+  color: #b4b2a9;
+  margin-top: 0.3rem;
+}
+
+/* ── CATEGORY GRID ── */
+.writing-page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3rem 2rem 6rem;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  animation: fadeUp 1s ease forwards 0.4s;
+  opacity: 0;
+}
+
+/* ── CATEGORY CARD ── */
+.category-card {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  border: 0.5px solid #e8e4dc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.category-card:hover {
+  border-color: #b4b2a9;
+  transform: translateY(-4px);
+}
+
+/* ── ILLUSTRATION ── */
+.category-illustration {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #f5f3ef;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.illustration-placeholder {
+  font-size: 2.5rem;
+  color: #e8c96a;
+}
+
+/* ── CARD TEXT ── */
+.category-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #1a1a18;
+  letter-spacing: 0.03em;
+}
+
+.category-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  color: #888780;
+  line-height: 1.8;
+  font-weight: 300;
+  font-style: italic;
+touch writing/flirtations.html
+}
+
+/* ── POSTS PAGE ── */
+.posts-page {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2rem 2rem 6rem;
+  animation: fadeUp 1s ease forwards 0.4s;
+  opacity: 0;
+}
+
+.category-desc-header {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  color: #b4b2a9;
+  line-height: 1.8;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 0.8rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ── POSTS LIST ── */
+.posts-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  border-top: 0.5px solid #e8e4dc;
+}
+
+.post-item {
+  border-bottom: 0.5px solid #e8e4dc;
+}
+
+.post-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 0;
+  text-decoration: none;
+  transition: padding-left 0.3s ease;
+}
+
+.post-link:hover {
+  padding-left: 0.5rem;
+}
+
+.post-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #1a1a18;
+  letter-spacing: 0.02em;
+  transition: color 0.3s ease;
+}
+
+.post-link:hover .post-title {
+  color: #888780;
+}
+
+.post-arrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: #b4b2a9;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.post-link:hover .post-arrow {
+  transform: translateX(4px);
+  color: #1a1a18;
+}
