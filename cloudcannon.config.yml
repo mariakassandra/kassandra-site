@@ -15,8 +15,6 @@ collections_config:
   writing:
     path: writing/posts
     icon: edit
-    create:
-      path: writing/posts/{title|slugify}.md
     _enabled_editors:
       - content
     schemas:
