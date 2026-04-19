@@ -9,9 +9,6 @@ collections_config:
   pages:
     path: ''
     icon: wysiwyg
-  film:
-    path: film
-    icon: files
   writing:
     path: writing/posts
     icon: edit
