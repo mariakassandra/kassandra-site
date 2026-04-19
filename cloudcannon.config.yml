@@ -1,0 +1,34 @@
+paths:
+  static: ''
+  uploads: uploads
+timezone: Asia/Manila
+markdown:
+  engine: commonmark
+  options: {}
+collections_config:
+  pages:
+    path: ''
+    icon: wysiwyg
+  writing:
+    path: writing/posts
+    icon: edit
+    _enabled_editors:
+      - content
+    schemas:
+      default:
+        fields:
+          - key: title
+            type: text
+            label: Title
+          - key: category
+            type: select
+            label: Category
+            options:
+              values:
+                - Flirtations & Frustrations
+                - Microscope Chronicles
+                - Poetry
+                - Unsent Letters
+          - key: date
+            type: date
+            label: Date
